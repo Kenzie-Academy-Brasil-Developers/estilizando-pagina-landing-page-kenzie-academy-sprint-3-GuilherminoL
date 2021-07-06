@@ -1,24 +1,4 @@
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, cite, code, del, dfn, em, img, strong, sub, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figure, figcaption, footer, header, nav, section {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-}
 
-body{
-    margin: 0 auto;
-    width: 100%;
-    color:#818181
-}
-h2 , h3{
-    font-weight: bold;
-    color: #303030;
-}
 /* ---> CURSOS <--- */
 .secaoCursos{
     width: 80%;
