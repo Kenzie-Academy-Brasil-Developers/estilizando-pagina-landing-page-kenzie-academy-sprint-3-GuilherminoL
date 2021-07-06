@@ -8,9 +8,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, cite
     list-style: none;
     text-decoration: none;
 }
-img{
-    width: 200px
-}
+
 body{
     margin: 0 auto;
     width: 100%;
@@ -20,10 +18,7 @@ h2 , h3{
     font-weight: bold;
     color: #303030;
 }
-h3{
-    font-weight: bold;
-}
-
+/* ---> CURSOS <--- */
 .secaoCursos{
     width: 80%;
     margin: 0 auto;
@@ -41,7 +36,6 @@ h3{
     font-weight: bold;
     color: #303030;
 }
-
 .coursesList li{
  margin: 20px;
 }
@@ -58,11 +52,13 @@ h3{
     font-size: 15px;
 }
 
+ /* ---> CALENDÁRIO <--- */
+
 .secaoCalendar{
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 60px;
-    text-align: center;
+width: 80%;
+margin: 0 auto;
+margin-top: 60px;
+text-align: center;
 }
 .secaoCalendar__title{
     text-align: center;
@@ -110,10 +106,14 @@ h3{
     border-radius:10px;
     color: white;
 }
+
+/* ---> CONTATO <--- */
 .secaoContato{
-    width: 80%;
-    margin: 0 auto
+    background-color: #f1f1f1;
+    padding-top: 20px;
+    padding-bottom: 80px
 }
+
 .secaoContato .flex{
     text-align: center;
     display: flex;
@@ -121,15 +121,9 @@ h3{
     font-size: 15px;
 
 }
-.secaoContato::before{
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    right: 0;
-    content: " " ;
-    background-color: #f1f1f1;
-    height: 600px;
-    width: 100%;
+.secaoContatoContainer{
+    width: 80%;
+    margin: 0 auto;
 }
 .secaoContato  h2 {
     font-size: 19px;
@@ -147,11 +141,7 @@ h3{
     color: #818181 ;
     font-size: 15px ;
 }
-.secaoContato{
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 20px
-}
+
 .secaoContato li{
     margin-bottom: 12px;
 }
@@ -203,10 +193,14 @@ h3{
     content: "\f3c5";
     margin-left: 2px;
 }
+
+/* ---> FOOTER <--- */
+
 footer{
-    margin-top: 200px;
+    margin-top: 50px;
     text-align: center;
 }
+
 @media (min-width: 768px){
     .coursesList{
         display: flex;
@@ -260,10 +254,8 @@ footer{
         margin: 0;
         margin-left: 94%;
     }
-    .secaoContato::before{
-        height: 400px;
-    }
+
     .secaoContato  h2 {
-        margin-left: 5%;
+        margin-left: 6%;
     }
 }
