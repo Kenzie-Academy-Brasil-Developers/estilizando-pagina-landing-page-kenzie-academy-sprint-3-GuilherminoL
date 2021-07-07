@@ -177,7 +177,7 @@ figcaption {
 }
 
 .js-background {
-    width: 100vw;
+    width: 98.9vw;
     background-color: #f1f1f1;
     padding-left: 50px;
     padding-right: 40px;
@@ -225,7 +225,7 @@ img {
     .secaoDestaque {
         background-image: url(../img/background-destaque.webp);
         height: 100vh;
-        width: 100vw;
+        width: 100%;
         padding-top: 100px;
     } 
     
@@ -484,6 +484,10 @@ footer{
     margin-top: 50px;
     text-align: center;
 }
+footer p {
+    margin-top: 60px;
+    text-align: center
+}
 
 @media (min-width: 768px){
     .coursesList{
@@ -535,9 +539,17 @@ footer{
     .form-input-model{
         width: 47%;
 
-        
     }
     .flex-col form{
         flex-direction:row;
         flex-wrap: wrap;
-        }}
+        justify-content:space-between;
+        }
+    .textarea{
+        width: 100%;
+    }
+    .secaoContato [value = "Send"]{
+        margin-left :auto;
+        margin-right: 0;
+    }
+}
