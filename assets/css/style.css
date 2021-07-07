@@ -85,6 +85,10 @@ figcaption {
     width:60%;
 }
 
+.secaoDestaqueFormulario input:hover {
+    outline:none;
+}
+
 .secaoDestaqueFormulario button {
     background-color: #007AFF;
     color: #FFFFFF;
